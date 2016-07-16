@@ -1,5 +1,8 @@
 # Federion
 
+[>> Website Mock-Up <<](https://github.com/mbusson/Federion/tree/master/front-end_mock-up)
+
 ### Todo
 
-- [ ] Preprod flat design
+- [ ] Preprod design
+- [x] Shining Logo [(here)](http://codepen.io/mbusson/pen/NAjBzX).
