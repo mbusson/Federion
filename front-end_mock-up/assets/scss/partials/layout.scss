@@ -30,6 +30,41 @@ body {
 }
 
 /* -----
+Logo
+----- */
+html{
+  background: rgba(200,200,200,1);
+}
+.mask a{
+  position: relative;
+  display:block;
+  width: 102px;
+  height: 150px;
+  text-align:center;
+  margin: 50px auto;
+  -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,.5));
+}
+.mask a{
+  background-position: -100px 0;
+}
+.mask a:hover,
+.mask a:focus{
+  background-position: 50px 30px;
+  transition: all 0.95s;
+}
+.mask a::after{
+  content:'';
+  position: absolute;
+  pointer-events: none;
+  top:0; left:0; right:0; bottom: 0;
+  background: radial-gradient(0 0,ellipse farthest-side, rgba(255,255,255,0) 75%,rgba(255,255,255,.5) 93%,rgba(255,255,255,0) 100%) no-repeat;
+  background: radial-gradient(ellipse farthest-side at 0 0, rgba(255,255,255,0) 75%,rgba(255,255,255,.5) 93%,rgba(255,255,255,0) 100%) no-repeat;
+  background-position: inherit; 
+  -webkit-mask: url('http://www.imgserv.com/images/2016/07/01/WjXMKq5Rd.png') center;
+  mask: url('#mask-firefox');
+}
+
+/* -----
 View
 ----- */
 .page-view {
