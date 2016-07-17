@@ -27,6 +27,8 @@ body {
       opacity: 1;
     }
   }
+  margin: 0;
+  padding: 0;
 }
 
 /* -----
@@ -80,9 +82,10 @@ View
   }
 }
 
-#header {
+header {
   height: 200px;
-  background: rgba(50,50,50,0.9);
+  background: rgba(25,25,25,.9);
+  margin-top: 0;
 }
 
 /* -----
