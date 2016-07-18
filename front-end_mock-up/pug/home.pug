@@ -1,13 +1,16 @@
 html
   body
     header
-      .js-federion-logo
-        .mask.pseudo
-          a(href='http://www.federion.net')
-            img(src='http://www.imgserv.com/images/2016/07/01/WjXMKq5Rd.png', width='102', height='150', alt='Federion')
-          svg(height='0')
-            mask#mask-firefox
-              image(xlink:href='http://www.imgserv.com/images/2016/07/01/WjXMKq5Rd.png', filter='url(#filter)')
-            filter#filter
-              feflood(flood-color='white')
-                fecomposite(in2='SourceAlpha', operator='in')
+      .js-header
+        .js-federion-logo
+          .mask.pseudo
+            a(href='http://www.federion.net')
+              img(src='http://www.imgserv.com/images/2016/07/01/WjXMKq5Rd.png', width='102', height='150', alt='Federion')
+            svg(height='0')
+              mask#mask-firefox
+                image(xlink:href='http://www.imgserv.com/images/2016/07/01/WjXMKq5Rd.png', filter='url(#filter)')
+              filter#filter
+                feflood(flood-color='white')
+                  fecomposite(in2='SourceAlpha', operator='in')
+        h1 Serveur Federion
+        h2 Semi-RP et Freebuild
