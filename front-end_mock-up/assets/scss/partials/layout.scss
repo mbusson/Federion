@@ -66,6 +66,13 @@ Logo
 /* -----
 View
 ----- */
+.js-header{
+  color: white;
+}
+.js-header h1, .js-header h2 {
+  @extend .js-header;
+}
+
 .js-federion-logo, .mask {
   height: 168px;
 }
