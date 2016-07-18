@@ -66,6 +66,11 @@ Logo
 /* -----
 View
 ----- */
+.js-federion-logo {
+  position: absolute;
+  top:0;
+  left:0;
+}
 .page-view {
   @include fixed();
   @include size(100%,100%);
