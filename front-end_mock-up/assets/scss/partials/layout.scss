@@ -67,15 +67,17 @@ Logo
 View
 ----- */
 .js-header {
-  color: white;
-  font-size: $px24
-
   h1, h2 {
     @extend .js-header;
+    z-index: 5;
+    color: white;
   }
 
   h1 {
     font-size: $px32
+  }
+  h2 {
+    font-size: $px24
   }
 }
 
