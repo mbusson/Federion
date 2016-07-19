@@ -63,10 +63,6 @@ Logo
   mask: url('#mask-firefox');
 }
 
-.js-federion-logo, .mask {
-  height: 168px;
-}
-
 /* -----
 View
 ----- */
@@ -84,8 +80,10 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
 
-  .js-federion-logo {
-    z-index: 1
+  .js-federion-logo, .mask {
+    max-width: 107px;
+    margin-left: 10%;
+    margin-right: 25px;
   }
 
   .js-federion-title {
