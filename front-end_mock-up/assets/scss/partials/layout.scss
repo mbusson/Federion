@@ -67,8 +67,13 @@ Logo
 View
 ----- */
 .js-header {
+  display: flex;
+
+  .js-federion-logo {
+    z-index: 1
+  }
+
   h1, h2 {
-    @extend .js-header;
     z-index: 5;
     color: white;
   }
