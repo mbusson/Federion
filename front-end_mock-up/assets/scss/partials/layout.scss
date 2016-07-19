@@ -63,32 +63,50 @@ Logo
   mask: url('#mask-firefox');
 }
 
+.js-federion-logo, .mask {
+  height: 168px;
+}
+
 /* -----
 View
 ----- */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background: rgba(25,25,25,.9);
+}
+
 .js-header {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   .js-federion-logo {
     z-index: 1
   }
 
-  h1, h2 {
-    z-index: 5;
-    color: white;
-  }
+  .js-federion-title {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 
-  h1 {
-    font-size: $px32
-  }
-  h2 {
-    font-size: $px24
+    h1, h2 {
+      z-index: 5;
+    }
+    h1 {
+      font-size: $px32;
+      color: white;
+    }
+    h2 {
+      font-size: $px24;
+      color: white;
+    }
   }
 }
 
-.js-federion-logo, .mask {
-  height: 168px;
-}
 .page-view {
   @include fixed();
   @include size(100%,100%);
@@ -100,16 +118,6 @@ View
     text-align: center;
     transform: translate3d(0,-100px,0);
   }
-}
-
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 168px;
-  padding: 5px;
-  background: rgba(25,25,25,.9);
 }
 
 /* -----
