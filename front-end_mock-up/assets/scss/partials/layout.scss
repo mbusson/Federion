@@ -66,11 +66,11 @@ Logo
 /* -----
 View
 ----- */
-.js-header{
+.js-header {
   color: white;
   font-size: $px24
 
-  .js-header h1, .js-header h2 {
+  h1, h2 {
     @extend .js-header;
   }
 
