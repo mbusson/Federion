@@ -5,4 +5,5 @@
 ### Todo
 
 - [ ] Preprod design
+- [ ] Not to forget PHP file extensions (for the CMS)
 - [x] Shining Logo [(here)](http://codepen.io/mbusson/pen/NAjBzX).
